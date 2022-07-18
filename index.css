@@ -6,13 +6,23 @@ body {
     align-items: center;
 }
 
+text {
+    letter-spacing: 0.5px;
+}
+
+p {
+    letter-spacing: 1px;
+    font-size: 20px;
+    
+}
+
 .header {
     display: flex;
     justify-content: center;
     line-height: 3.5;
     width: 100%;
     height: 100px;
-    background-color: rgb(255, 244, 225);
+    background-color: rgb(252, 240, 218);
 }
 
 .main-content {
@@ -26,7 +36,7 @@ body {
     width: 100%;
     letter-spacing: 0.6px;
     line-height: 1.7;
-    background-color: rgb(241, 244, 229);
+    background-color: rgb(255, 249, 243);
 }
 
 .bottom-content {
@@ -38,8 +48,4 @@ body {
     height: 160px;
     line-height: 1.3;
     background-color: rgb(242, 243, 223);
-}
-
-text {
-    letter-spacing: 0.5px;
 }
