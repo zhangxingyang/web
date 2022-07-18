@@ -11,9 +11,9 @@ text {
 }
 
 p {
-    letter-spacing: 1px;
-    font-size: 20px;
-    
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-family: "微软雅黑", cursive, serif;
 }
 
 .header {
