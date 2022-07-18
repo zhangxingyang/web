@@ -36,7 +36,6 @@ p {
 
 .main-content {
     flex-direction: column;
-    /* padding: 30px; */
     /* max-width: 900px; */
     min-height: 65vh;
     width: 100%;
