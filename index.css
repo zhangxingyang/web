@@ -1,10 +1,12 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
 body {
     display: flex;
     margin: 0;
     padding: 0;
     /* flex-direction: row; */
     flex-direction: column;
-    align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 div {
@@ -12,13 +14,12 @@ div {
 }
 
 text {
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
 }
 
 p {
     letter-spacing: 2px;
     font-weight: normal;
-    font-family: "微软雅黑", cursive, sans-serif;
 }
 
 .center {
@@ -40,7 +41,7 @@ p {
     min-height: 65vh;
     width: 100%;
     font-size: 30px; 
-    line-height: 1.7;
+    line-height: 2;
     background-color: rgb(255, 249, 243);
 }
 
@@ -53,5 +54,30 @@ p {
 }
 
 .font-size-small {
-    font-size: 16px
+    font-size: 16px;
+}
+
+.bottom {
+    box-sizing: border-box;
+    position: relative;
+    color: #555;
+    background-color: rgba(235, 127, 127, 0.3);
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.bottom:hover {
+    background-color: #bbc921;
+    color: rgba(252, 252, 252);
+    letter-spacing: 3px;
+}
+
+.shadow {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05), 
+    0px 3px 3px rgba(0, 0, 0, 0.1);
 }
