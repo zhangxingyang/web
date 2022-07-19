@@ -1,4 +1,4 @@
-@media (max-width: 900px)
+@media (max-width: 1000px)
 {
     text {
         letter-spacing: 1px;
@@ -25,5 +25,10 @@
     
     .font-size-small {
         font-size: 38px;
+    }
+
+    .bottom {
+        font-size: 42px;
+        padding: 20px;
     }
 }

@@ -60,20 +60,20 @@ p {
 .bottom {
     box-sizing: border-box;
     position: relative;
-    color: #555;
-    background-color: rgba(235, 127, 127, 0.3);
+    color: rgb(96, 94, 94);
+    background-color: rgba(251, 234, 112, 0.5);
     text-decoration: none;
     font-weight: 550;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 0.5px;
     transition: 0.5s;
-    padding: 10px;
+    padding: 13px;
     border-radius: 20px;
 }
 
 .bottom:hover {
     background-color: #bbc921;
-    color: rgba(252, 252, 252);
+    color: rgb(252, 252, 252);
     letter-spacing: 3px;
 }
 
