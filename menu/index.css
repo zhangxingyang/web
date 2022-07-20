@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+div {
+    display: flex;
+}
+
+text {
+    letter-spacing: 0.3px;
+}
+
+p {
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
