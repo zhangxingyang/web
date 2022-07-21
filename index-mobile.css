@@ -1,38 +1,35 @@
 @media (max-width: 1000px)
 {
     text {
-        letter-spacing: 1px;
+        letter-spacing: 0.6px;
     }
 
     p {
-        font-weight: 700;
+        font-size: 80px;
     }
 
     .header {
         font-size: 68px;
-        height: 200px;
     }
 
     .main-content {
-        min-height: 75vh;
         font-size: 80px;
     }
 
     .bottom-content {
-        height: 250px;
         font-size: 43px;
-    }
-    
-    .bottom-content-font-size-small {
-        font-size: 38px;
-    }
-
-    .bottom-content-font-size-large {
-        font-size: 40px;
     }
 
     .bottom {
         font-size: 50px;
         padding: 20px;
+    }
+
+    .bottom-content-font-size-small {
+        font-size: 40px;
+    }
+
+    .bottom-content-font-size-large {
+        font-size: 45px;
     }
 }

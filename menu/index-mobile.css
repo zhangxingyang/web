@@ -1,0 +1,26 @@
+@media (max-width: 1000px)
+{
+    text {
+        letter-spacing: 0.6px;
+    }
+
+    .header {
+        font-size: 68px;
+    }
+
+    .main-content {
+        font-size: 58px;
+    }
+
+    .bottom-content {
+        font-size: 43px;
+    }
+
+    .bottom-content-font-size-small {
+        font-size: 40px;
+    }
+
+    .bottom-content-font-size-large {
+        font-size: 45px;
+    }
+}
