@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="all">
+
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+    <link rel="stylesheet" href="index-mobile.css" type="text/css"/>
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16-seochecker-manifest.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32-seochecker-manifest.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-icon-144x144-seochecker-manifest.png"/>
+
+    <meta name="msapplication-TileColor" content="#fff9f3"/>
+    <meta name="theme-color" content="#fff9f3"/>
+    <title>VIP视频解析</title>
+</head>
+<body>
+<div class="box">
+    <input placeholder="请输入VIP视频网址" class="input">
+    <span class="button" onclick="goto('https://jx.ppflv.com/?url=')"
+          style="margin-left: 0; margin-right: 10px;">线路1</span>
+    <span class="button" onclick="goto('https://okjx.cc/?url=')"
+          style="margin-left: -10px; margin-right: 0;">线路2</span>
+</div>
+<script>
+    function goto(url_front) {
+        let input = document.querySelector(".input");
+        let video_url = input.value;
+        video_url = video_url.trim();
+
+        input.value = null;
+        if (!video_url && (video_url.startsWith("http://") || video_url.startsWith("https://"))) {
+            return;
+        }
+
+        let url = url_front + video_url;
+        window.open(url);
+    }
+
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+            navigator.serviceWorker.register("../sw.js");
+        })
+    }
+</script>
+</body>
+</html>
